@@ -1,0 +1,9 @@
+flutter_native_splash:
+  color: "34C75D"
+  image: https://www.figma.com/file/h2Ciem6UGVHIkdZxHh7h4V/EGO?type=design&node-id=18-393&mode=design&t=4eeR4NFL8hqGqxfz-4
+
+  android_12:
+    color: "34C75D"
+    image: https://www.figma.com/file/h2Ciem6UGVHIkdZxHh7h4V/EGO?type=design&node-id=18-393&mode=design&t=4eeR4NFL8hqGqxfz-4
+
+  web: false
