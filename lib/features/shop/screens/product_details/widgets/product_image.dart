@@ -24,7 +24,7 @@ class MProductImage extends StatelessWidget {
                   padding: EdgeInsets.all(16.0 * 2),
                   child: Center(
                       child: Image(
-                          image: AssetImage(MImages.promoBanner3))),
+                          image: AssetImage(MImages.productImage3))),
                 )),
     
             // 1 AppBar

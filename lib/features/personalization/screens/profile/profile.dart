@@ -13,7 +13,7 @@ class ProfileScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: MAppBar(
+      appBar: const MAppBar(
         showBackArrow: true,
         title: Text('Profile'),
       ),
@@ -28,8 +28,8 @@ class ProfileScreen extends StatelessWidget {
                 width: double.infinity,
                 child: Column(
                   children: [
-                    MCircularImage(
-                      image: MImages.profile,
+                    const MCircularImage(
+                      image: MImages.user,
                       width: 80,
                       height: 80,
                     ),

@@ -1,7 +1,9 @@
 import 'package:ego_supermart/common/widgets/texts/section_heading.dart';
 import 'package:ego_supermart/features/shop/screens/product_details/widgets/bottom_add_to_cart_widget.dart';
 import 'package:ego_supermart/features/shop/screens/product_details/widgets/product_meta_data.dart';
+import 'package:ego_supermart/features/shop/screens/product_reviews/product_reviews.dart';
 import 'package:flutter/material.dart';
+import 'package:get/get.dart';
 import 'package:iconsax/iconsax.dart';
 import 'package:readmore/readmore.dart';
 import 'widgets/product_attributes.dart';
@@ -50,11 +52,11 @@ class ProductDetailScreen extends StatelessWidget {
                     height: 16.0,
                   ),
                   const ReadMoreText(
-                    'This is A Product Description for Peak Full-Cream Refil. There are More Things that can be Added but i want to also make it show more and as well show less when i click on the Readmore thingy i just hope it works quite alright.',
+                    'This is A Product Description for Peak Full-Cream Refil. There are More Things that can be Added but i want to also make it show more and as well show less when i click on the Readmore thingy i just hope it works quite alright. ',
                     trimLines: 2,
                     trimMode: TrimMode.Line,
-                    trimCollapsedText: 'Show more',
-                    trimExpandedText: 'Show less',
+                    trimCollapsedText: 'more',
+                    trimExpandedText: 'less',
                     moreStyle:
                         TextStyle(fontSize: 14, fontWeight: FontWeight.w800),
                     lessStyle:
@@ -73,7 +75,7 @@ class ProductDetailScreen extends StatelessWidget {
                           title: 'Reviews (199)', showActionButton: false),
                       IconButton(
                         icon: const Icon(Iconsax.arrow_right_3, size: 18),
-                        onPressed: () {},
+                        onPressed: () => Get.to(() => const ProductReviewsScreen()),
                       )
                     ],
                   ),

@@ -16,7 +16,7 @@ class MUserProfileTile extends StatelessWidget {
     return ListTile(
       leading: CircleAvatar(
         radius: 20,
-        child: Image.asset(MImages.profile,width: 50,height: 50,fit: BoxFit.contain,),
+        child: Image.asset(MImages.user,width: 50,height: 50,fit: BoxFit.contain,),
       ),
       title: Text('David',style: Theme.of(context).textTheme.headlineSmall,),
       subtitle: Text('davidpainter421@gmail.com',style: Theme.of(context).textTheme.bodyMedium,),

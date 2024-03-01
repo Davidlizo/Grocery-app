@@ -49,6 +49,7 @@ dependencies:
   # Product Specific
   readmore: ^2.2.0
   carousel_slider: ^4.2.1
+  flutter_rating_bar: ^4.0.1
 
   # Other packages
   flutter_native_splash: ^2.3.6
@@ -93,6 +94,8 @@ flutter:
    - assets/logo/
    - assets/animations/
    - assets/banner/
+   - assets/products/
+   - assets/reviews/
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware
