@@ -1,16 +1,8 @@
 # ego_supermart
+This is a Grocery Application made with Dart & Flutter.
 
-A new Flutter project.
+## What it's About
+This Application has a friendly, interactive user interface that allows user to navigate seamlessly.
+Using my knowleadge in Programming i have been able to build this app that makes human life easier by shopping and odering online with ease.
+This application allows you to shop from anywhere in the world.
 
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
