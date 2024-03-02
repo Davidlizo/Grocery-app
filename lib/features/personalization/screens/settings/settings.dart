@@ -1,7 +1,9 @@
 import 'package:ego_supermart/components/containers/primary_header_container.dart';
 import 'package:ego_supermart/common/widgets/appbar/appbar.dart';
 import 'package:ego_supermart/common/widgets/texts/section_heading.dart';
+import 'package:ego_supermart/features/personalization/screens/address/address.dart';
 import 'package:flutter/material.dart';
+import 'package:get/get.dart';
 import 'package:iconsax/iconsax.dart';
 
 import '../../../../common/widgets/list_tiles/settings_menu_tile.dart';
@@ -47,7 +49,7 @@ class SettingsScreen extends StatelessWidget {
                   height: 32.0,
                 ),
 
-                const MSettingsMenuTile(icon: Iconsax.safe_home,title: 'My Address',subtitle: 'Set shopping delivery address'),
+                MSettingsMenuTile(icon: Iconsax.safe_home,title: 'My Address',subtitle: 'Set shopping delivery address',onTap: () => Get.to(() => const UserAddressScreen())),
                 const MSettingsMenuTile(icon: Iconsax.shopping_cart,title: 'My cart',subtitle: 'Add, remove products and move to checkout'),
                 const MSettingsMenuTile(icon: Iconsax.bag_tick,title: 'My Orders',subtitle: 'In-progress and Completed Orders'),
                 const MSettingsMenuTile(icon: Iconsax.bank,title: 'Bank Account',subtitle: 'Withdraw balance to registered bank account'),

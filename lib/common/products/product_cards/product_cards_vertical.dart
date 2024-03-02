@@ -1,7 +1,7 @@
 import 'package:ego_supermart/common/styles/shadows.dart';
 import 'package:ego_supermart/common/widgets/texts/Product_title_text.dart';
 import 'package:ego_supermart/components/containers/rounded_container.dart';
-import 'package:ego_supermart/features/shop/screens/product_details/product_detail.dart';
+import 'package:ego_supermart/shop/screens/product_details/product_detail.dart';
 import 'package:ego_supermart/utils/constants/image_strings.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';

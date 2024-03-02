@@ -1,6 +1,6 @@
-import 'package:ego_supermart/features/shop/screens/login/login.dart';
+import 'package:ego_supermart/shop/screens/login/login.dart';
 
-import 'package:ego_supermart/features/shop/screens/store/widgets/splashscreen.dart';
+import 'package:ego_supermart/shop/screens/store/widgets/splashscreen.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 

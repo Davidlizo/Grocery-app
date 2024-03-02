@@ -1,11 +1,11 @@
-import 'package:ego_supermart/features/shop/screens/home/home.dart';
+import 'package:ego_supermart/shop/screens/home/home.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:iconsax/iconsax.dart';
 
 import 'features/personalization/screens/settings/settings.dart';
-import 'features/shop/screens/store/store.dart';
-import 'features/shop/screens/wishlist.dart/wishlist.dart';
+import 'shop/screens/store/store.dart';
+import 'shop/screens/wishlist.dart/wishlist.dart';
 
 class NavigationMenu extends StatelessWidget {
   const NavigationMenu({super.key});
