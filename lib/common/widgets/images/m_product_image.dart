@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-import '../../utils/helpers/helper_functions.dart';
+import '../../../utils/helpers/helper_functions.dart';
 
 class MProductImage extends StatelessWidget {
   const MProductImage({

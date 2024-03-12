@@ -2,8 +2,8 @@ import 'package:ego_supermart/common/widgets/appbar/appbar.dart';
 import 'package:flutter/material.dart';
 import 'package:iconsax/iconsax.dart';
 
-import '../../../../common/custom_shapes/curved_edges/curved_edges_widget.dart';
-import '../../../../common/icons/m_circular_icon.dart';
+import '../../../../common/widgets/custom_shapes/curved_edges/curved_edges_widget.dart';
+import '../../../../common/widgets/icons/m_circular_icon.dart';
 import '../../../../utils/constants/image_strings.dart';
 
 class MProductImage extends StatelessWidget {

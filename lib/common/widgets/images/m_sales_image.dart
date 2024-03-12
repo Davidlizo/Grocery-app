@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-import '../../utils/helpers/helper_functions.dart';
+import '../../../utils/helpers/helper_functions.dart';
 
 class MSalesImage extends StatelessWidget {
   const MSalesImage({

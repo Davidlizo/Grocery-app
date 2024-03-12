@@ -1,4 +1,4 @@
-import 'package:ego_supermart/common/products/product_cards/product_cards_vertical.dart';
+import 'package:ego_supermart/common/widgets/products/product_cards/product_cards_vertical.dart';
 import 'package:flutter/material.dart';
 
 import '../../../components/containers/primary_header_container.dart';

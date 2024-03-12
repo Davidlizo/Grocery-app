@@ -1,4 +1,4 @@
-import 'package:ego_supermart/common/products/ratings/rating_indicator.dart';
+import 'package:ego_supermart/common/widgets/products/ratings/rating_indicator.dart';
 import 'package:ego_supermart/components/containers/rounded_container.dart';
 import 'package:ego_supermart/utils/constants/image_strings.dart';
 import 'package:flutter/material.dart';

@@ -4,7 +4,7 @@ import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 
 import '../../../../components/containers/circular_container.dart';
-import '../../../../common/images/m_sales_image.dart';
+import '../../../../common/widgets/images/m_sales_image.dart';
 import '../../../../utils/constants/image_strings.dart';
 
 class MSalesSlider extends StatelessWidget {

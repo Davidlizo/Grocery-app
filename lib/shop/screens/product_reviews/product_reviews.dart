@@ -2,7 +2,7 @@ import 'package:ego_supermart/shop/screens/product_reviews/widgets/user_review_c
 import 'package:flutter/material.dart';
 
 import 'package:ego_supermart/common/widgets/appbar/appbar.dart';
-import '../../../common/products/ratings/rating_indicator.dart';
+import '../../../common/widgets/products/ratings/rating_indicator.dart';
 import 'widgets/rating_progress_indicator.dart';
 
 class ProductReviewsScreen extends StatelessWidget {

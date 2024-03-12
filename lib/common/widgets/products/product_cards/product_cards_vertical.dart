@@ -9,7 +9,7 @@ import 'package:iconsax/iconsax.dart';
 
 import '../../icons/m_circular_icon.dart';
 import '../../images/m_product_image.dart';
-import '../../widgets/texts/product_price_text.dart';
+import '../../texts/product_price_text.dart';
 
 class MProductCardVertical extends StatelessWidget {
   const MProductCardVertical({super.key});
@@ -94,7 +94,7 @@ class MProductCardVertical extends StatelessWidget {
                   children: [
                     Text('Kirland', overflow: TextOverflow.ellipsis,maxLines: 1, style:Theme.of(context).textTheme.labelMedium),
                     const SizedBox(width: 4.0,),
-                    const Icon(Iconsax.verify5, color: Colors.blue, size: 8.0,)
+                    const Icon(Iconsax.verify5, color: Colors.blue, size: 8.0,),
                   ],
                 )
                 ],

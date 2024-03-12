@@ -1,4 +1,4 @@
-import 'package:ego_supermart/common/icons/m_circular_icon.dart';
+import 'package:ego_supermart/common/widgets/icons/m_circular_icon.dart';
 import 'package:flutter/material.dart';
 import 'package:iconsax/iconsax.dart';
 
@@ -20,12 +20,12 @@ class MBottomAddToCart extends StatelessWidget {
         children: [
           Row(
             children: [
-              const MCircularIcon(
+                MCircularIcon(
                 icon: Iconsax.minus,
-                backgroundColor: Colors.grey,
                 width: 40,
                 height: 40,
-                color: Colors.white,
+                color: Colors.black,
+                backgroundColor: Colors.grey.shade300,
               ),
               const SizedBox(width: 16.0),
               Text('2', style: Theme.of(context).textTheme.titleSmall),

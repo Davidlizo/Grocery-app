@@ -1,4 +1,4 @@
-import 'package:ego_supermart/common/images/m_circular_image.dart';
+import 'package:ego_supermart/common/widgets/images/m_circular_image.dart';
 import 'package:ego_supermart/common/widgets/texts/section_heading.dart';
 import 'package:ego_supermart/utils/constants/image_strings.dart';
 import 'package:flutter/material.dart';
